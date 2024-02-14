@@ -39,9 +39,9 @@ internal class UILoadGameWindow_Patch
             return;
         }
 
-#if RELEASE
+/*#if RELEASE
         DisableLoadIfSaveHasCombatModeEnabled(__instance);
-#endif
+#endif*/
     }
 
     private static void DisableLoadIfSaveHasCombatModeEnabled(UILoadGameWindow uiLoadGameWindow)

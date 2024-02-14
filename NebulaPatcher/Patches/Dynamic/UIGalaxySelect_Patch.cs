@@ -80,9 +80,9 @@ internal class UIGalaxySelect_Patch
             MainMenuStarID = GameMain.localStar.id;
         }
 
-#if RELEASE
+/*#if RELEASE
         DisableDarkFogToggle();
-#endif
+#endif*/
 
         var button = GameObject.Find("UI Root/Overlay Canvas/Galaxy Select/start-button").GetComponent<Button>();
         button.interactable = true;
